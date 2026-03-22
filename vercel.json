@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/card", "destination": "/api/card.js" },
+    { "source": "/api/badge", "destination": "/api/badge.js" },
+    { "source": "/api/contributions", "destination": "/api/contributions.js" }
+  ]
+}

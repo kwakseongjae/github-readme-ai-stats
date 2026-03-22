@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="172" height="20">
+  <rect width="78" height="20" rx="3" fill="#555"/>
+  <rect x="78" width="94" height="20" rx="3" fill="#D97757"/>
+  <rect x="78" width="3" height="20" fill="#D97757"/>
+  <g transform="translate(5, 4) scale(0.5)" fill="#fff"><path d="M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z"/></g>
+  <text x="51" y="14" fill="#fff" font-size="11" text-anchor="middle" font-family="Verdana,Geneva,sans-serif">Claude</text>
+  <text x="125" y="14" fill="#fff" font-size="11" text-anchor="middle" font-family="Verdana,Geneva,sans-serif">392 sessions</text>
+</svg>

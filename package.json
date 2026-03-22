@@ -1,0 +1,14 @@
+{
+  "name": "github-ai-stat",
+  "version": "0.1.0",
+  "description": "Show your AI coding DNA on your GitHub profile",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "test": "node tests/test-cards.js",
+    "preview": "node scripts/preview.js",
+    "sync": "node scripts/sync.js"
+  },
+  "keywords": ["github", "readme", "ai", "stats", "copilot", "claude", "svg"],
+  "license": "MIT",
+  "type": "module"
+}
