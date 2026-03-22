@@ -198,14 +198,20 @@ async function registerStopHook() {
 
   // 이미 등록된 hook인지 확인
   const hookCmd = "npx github-readme-ai-stats sync --quiet";
-  const exists = settings.hooks.Stop.some(
-    (h) => h.command === hookCmd || (typeof h === "string" && h === hookCmd)
-  );
+  const exists = settings.hooks.Stop.some((entry) => {
+    const hooks = entry?.hooks || [];
+    return hooks.some((h) => h.command?.includes("github-readme-ai-stats"));
+  });
 
   if (!exists) {
+    // Claude Code settings.json의 실제 hook 포맷
     settings.hooks.Stop.push({
-      command: hookCmd,
-      timeout: 30000,
+      hooks: [
+        {
+          type: "command",
+          command: hookCmd,
+        },
+      ],
     });
     await writeFile(SETTINGS_PATH, JSON.stringify(settings, null, 2));
   }
