@@ -2,7 +2,8 @@
 
 **Show your AI coding DNA on your GitHub profile.**
 
-Dynamically generated AI usage stats card for your GitHub profile README. Automatically tracks your Claude Code & Codex CLI usage from local data — no API key required.
+GitHub 프로필 README에 AI 도구 사용 통계를 자동으로 보여주는 카드입니다.
+Claude Code, Codex CLI 등의 로컬 사용 데이터를 분석하여 SVG 카드를 생성하고, GitHub Gist를 통해 프로필에 표시합니다.
 
 <p align="center">
   <img src="preview/card-dark.svg" alt="AI Stats Card - Dark Theme" width="495" />
@@ -12,14 +13,12 @@ Dynamically generated AI usage stats card for your GitHub profile README. Automa
 
 ## Features
 
-- **Zero Config** — `npx github-readme-ai-stats init` 한 줄로 설정 완료
-- **자동 업데이트** — Claude Code 종료 시 Stop hook이 자동으로 Gist 업데이트
-- **로컬 데이터 기반** — `~/.claude/` 로컬 파일에서 직접 파싱, API 키 불필요
-- **Top 3 Models** — 가장 많이 쓴 모델 3개를 자동 분석하여 표시
-- **Multiple Providers** — Claude Code, Codex CLI 동시 지원
-- **10 Themes** — dark, radical, tokyonight, dracula, neon, matrix, synthwave 등
-- **Animated SVG** — 게이지바 애니메이션, 랭크 링, 글로우 이펙트
-- **GitHub README 호환** — GitHub SVG 렌더러에서 동작하는 SMIL 애니메이션
+- **3줄 설정** — clone → init → README에 붙여넣기
+- **자동 업데이트** — Claude Code 종료 시 Stop hook이 Gist를 자동 업데이트
+- **API 키 불필요** — `~/.claude/` 로컬 파일에서 직접 파싱
+- **Top 3 Models** — 가장 많이 쓴 모델 3개를 자동 분석
+- **10 Themes** — dark, radical, tokyonight, dracula, neon, matrix 등
+- **Animated SVG** — 게이지바, 랭크 링, 글로우 이펙트
 - **Badges** — 개별 도구 배지 커스터마이즈
 
 ## Card Examples
@@ -45,86 +44,82 @@ Dynamically generated AI usage stats card for your GitHub profile README. Automa
   <img src="preview/card-both-tokyonight.svg" alt="Both Tokyonight" width="400" />
 </p>
 
+---
+
 ## Quick Start
 
-### 방법 1: 자동 설정 (추천)
+### 필요 조건
+
+- [Node.js](https://nodejs.org/) v18+
+- [gh CLI](https://cli.github.com/) 설치 + 로그인 (`gh auth login`)
+- Claude Code 또는 Codex CLI 사용 이력 (로컬 데이터가 있어야 합니다)
+
+### Step 1. 클론 & 초기 설정
 
 ```bash
-npx github-readme-ai-stats init
+git clone https://github.com/kwakseongjae/github-readme-ai-stats.git
+cd github-readme-ai-stats
+npm run init
 ```
 
-이 한 줄이 수행하는 작업:
-1. `gh` CLI 인증 확인
-2. `~/.claude/` 로컬 데이터 파싱 (토큰, 세션, 모델별 사용량)
-3. SVG 카드 생성 → GitHub Gist에 업로드
-4. Claude Code Stop hook 자동 등록 (이후 세션 종료마다 자동 업데이트)
-5. README에 붙일 이미지 URL 출력
+`npm run init` 실행 시 자동으로:
 
-> **필요 조건:** [gh CLI](https://cli.github.com/) 설치 + `gh auth login` 인증
+```
+  ⚡ github-readme-ai-stats init
 
-설정 완료 후 출력되는 코드를 프로필 README에 붙여넣으면 끝입니다:
+  [1/5] Checking gh CLI...
+    ✓ Logged in as @yourname
+
+  [2/5] Scanning local AI tool data...
+    ✓ Claude Code: 392 sessions, 10.0M tokens
+
+  [3/5] Generating stats card...
+    ✓ Cards generated (dark + default)
+
+  [4/5] Creating GitHub Gist...
+    ✓ Gist created: https://gist.github.com/xxxxx
+
+  [5/5] Registering Claude Code auto-update hook...
+    ✓ Stop hook registered
+    → Stats will auto-update when you exit Claude Code
+
+  ─────────────────────────────────────────
+  ✅ Setup complete! Add this to your GitHub profile README:
+
+  ![AI Stats](https://gist.githubusercontent.com/yourname/xxxxx/raw/ai-stats-dark.svg)
+```
+
+### Step 2. 프로필 README에 추가
+
+출력된 마크다운 코드를 `github.com/USERNAME/USERNAME` 레포의 `README.md`에 붙여넣기:
 
 ```markdown
 ![AI Stats](https://gist.githubusercontent.com/YOUR_USERNAME/GIST_ID/raw/ai-stats-dark.svg)
 ```
 
-### 방법 2: 수동 설정
+### Step 3. 끝!
 
-<details>
-<summary>직접 Gist를 만들어서 설정하기</summary>
+이후로는 **Claude Code를 사용하고 종료할 때마다** Stop hook이 자동으로 실행되어 Gist가 업데이트됩니다.
+프로필 README에서 항상 최신 통계가 표시됩니다.
 
-1. `npm run preview` 로 로컬 데이터 기반 SVG 카드 생성
-2. `preview/card-{theme}.svg` 파일을 [gist.github.com](https://gist.github.com)에 업로드
-3. Gist의 raw URL을 프로필 README에 추가
+수동으로 업데이트하고 싶다면:
 
-```markdown
-![AI Stats](https://gist.githubusercontent.com/YOUR_USERNAME/GIST_ID/raw/card-dark.svg)
+```bash
+cd github-readme-ai-stats
+npm run sync
 ```
 
-수동 업데이트: `npm run preview` → Gist 재업로드
+### 테마 변경
 
-</details>
+기본 테마는 `dark`입니다. 다른 테마로 변경하려면 `scripts/init.js`에서 테마를 수정하고 다시 `npm run init`을 실행하세요.
 
-<details>
-<summary>조직 계정: Admin API 자동 연동</summary>
+프리뷰로 모든 테마를 미리 볼 수 있습니다:
 
-조직(Organization) 계정이 있다면 Admin API Key를 사용할 수도 있습니다.
-
-| Provider | Admin Keys | 필요 권한 |
-|----------|-----------|----------|
-| Anthropic | [platform.claude.com/settings/admin-keys](https://platform.claude.com/settings/admin-keys) | 조직 admin |
-| OpenAI | [platform.openai.com/settings/organization/admin-keys](https://platform.openai.com/settings/organization/admin-keys) | 조직 Owner |
-
-> 개인 계정에서는 Admin Keys가 제공되지 않습니다.
-
-</details>
-
-## How It Works
-
-```
-npx github-readme-ai-stats init (최초 1회)
-  │
-  ├─ ~/.claude/stats-cache.json 파싱 (모델별 토큰, 세션 수)
-  ├─ ~/.claude/usage-data/session-meta/*.json 파싱 (커밋, 코드 라인)
-  ├─ ~/.codex/sessions/ 파싱 (Codex 사용 시)
-  │
-  ├─ SVG 카드 생성 → GitHub Gist 업로드
-  └─ Claude Code Stop hook 자동 등록
-        │
-        └─ 이후 Claude Code 종료마다 자동 실행
-             → 데이터 재파싱 → Gist 업데이트
+```bash
+npm run preview  # 브라우저에서 모든 테마 확인
 ```
 
-### 데이터 소스
-
-| 소스 | 경로 | 수집 항목 |
-|------|------|----------|
-| Claude Code stats-cache | `~/.claude/stats-cache.json` | 모델별 토큰, 세션 수, 일별 활동 |
-| Claude Code session-meta | `~/.claude/usage-data/session-meta/*.json` | git 커밋, 코드 라인, 파일 수정 |
-| Claude Code JSONL | `~/.claude/projects/**/*.jsonl` | 상세 세션 로그 (fallback) |
-| Codex CLI | `~/.codex/sessions/**/*.jsonl` | 모델별 토큰, 요청 수 |
-
-> 참고: [ccusage](https://github.com/ryoppippi/ccusage) (11.8K stars), [cc-proficiency](https://github.com/Z-M-Huang/cc-proficiency) 등 검증된 오픈소스 프로젝트들이 동일한 로컬 파일을 데이터 소스로 사용합니다.
+---
 
 ## Themes
 
@@ -143,7 +138,7 @@ npx github-readme-ai-stats init (최초 1회)
 
 ## Badges
 
-코드를 복사하고 `usage=` 뒤의 텍스트만 원하는 대로 수정하세요:
+코드를 복사하고 `usage=` 뒤의 텍스트만 원하는 대로 수정하면 됩니다:
 
 <p>
   <img src="preview/badge-claude-code.svg" alt="Claude Code" />
@@ -152,36 +147,73 @@ npx github-readme-ai-stats init (최초 1회)
   <img src="preview/badge-chatgpt.svg" alt="ChatGPT" />
 </p>
 
-```markdown
-![Claude Code](https://github-ai-stat.vercel.app/api/badge?tool=claude-code&usage=daily)
-![Codex CLI](https://github-ai-stat.vercel.app/api/badge?tool=codex&usage=285%20sessions)
-![Claude](https://github-ai-stat.vercel.app/api/badge?tool=claude&usage=392%20sessions)
-![ChatGPT](https://github-ai-stat.vercel.app/api/badge?tool=chatgpt&usage=monthly)
-```
+배지는 Gist에 SVG를 직접 업로드하거나, 프로필 README에 아래 코드를 붙여넣으세요:
 
-`usage=` 뒤의 값만 바꾸면 됩니다. 공백은 `%20`으로 인코딩합니다.
+```markdown
+<!-- 예시: 텍스트를 원하는 대로 변경 -->
+![Claude Code](https://img.shields.io/badge/Claude_Code-daily-D97757?logo=anthropic)
+![Codex CLI](https://img.shields.io/badge/Codex_CLI-weekly-412991?logo=openai)
+```
 
 사용 가능한 도구: `claude-code`, `codex`, `claude`, `chatgpt`, `github-copilot`, `cursor`, `gemini`, `windsurf`
 
-## Local Development
+---
 
-```bash
-git clone https://github.com/kwakseongjae/github-readme-ai-stats.git
-cd github-readme-ai-stats
+## How It Works
 
-# 로컬 Claude Code 데이터 기반 프리뷰
-npm run preview
-
-# 로컬 API 서버
-npm run dev
-# http://localhost:3000
-
-# Gist 동기화 (수동)
-npm run sync
-
-# 초기 설정
-npm run init
 ```
+git clone & npm run init (최초 1회)
+  │
+  ├─ ~/.claude/stats-cache.json 파싱
+  │    → 모델별 토큰 사용량, 세션 수, 일별 활동
+  │
+  ├─ ~/.claude/usage-data/session-meta/*.json 파싱
+  │    → git 커밋 수, 코드 라인, 파일 수정
+  │
+  ├─ SVG 카드 생성 (dark + default)
+  │    → GitHub Gist에 업로드 (gh CLI)
+  │
+  └─ Claude Code Stop hook 자동 등록
+       │
+       └─ 이후 Claude Code 세션 종료마다
+            → 자동 데이터 재파싱 → Gist 업데이트
+```
+
+### 데이터 소스
+
+| 소스 | 경로 | 수집 항목 |
+|------|------|----------|
+| stats-cache | `~/.claude/stats-cache.json` | 모델별 토큰, 세션 수, 일별 활동 |
+| session-meta | `~/.claude/usage-data/session-meta/*.json` | git 커밋, 코드 라인, 파일 수정 |
+| JSONL logs | `~/.claude/projects/**/*.jsonl` | 상세 세션 로그 (fallback) |
+| Codex CLI | `~/.codex/sessions/**/*.jsonl` | 모델별 토큰, 요청 수 |
+
+> [ccusage](https://github.com/ryoppippi/ccusage) (11.8K stars), [cc-proficiency](https://github.com/Z-M-Huang/cc-proficiency) 등 검증된 오픈소스가 동일한 로컬 파일을 데이터 소스로 사용합니다.
+
+<details>
+<summary><strong>조직 계정: Admin API 자동 연동</strong></summary>
+
+조직(Organization) 계정이 있다면 Admin API Key로 실시간 연동도 가능합니다.
+
+| Provider | Admin Keys | 필요 권한 |
+|----------|-----------|----------|
+| Anthropic | [platform.claude.com/settings/admin-keys](https://platform.claude.com/settings/admin-keys) | 조직 admin |
+| OpenAI | [platform.openai.com/settings/organization/admin-keys](https://platform.openai.com/settings/organization/admin-keys) | 조직 Owner |
+
+> 개인 계정에서는 Admin Keys가 제공되지 않습니다.
+
+</details>
+
+---
+
+## Commands
+
+| 명령어 | 설명 |
+|--------|------|
+| `npm run init` | 최초 설정 (데이터 파싱 → Gist 생성 → hook 등록) |
+| `npm run sync` | 수동 Gist 동기화 |
+| `npm run preview` | 브라우저에서 모든 테마 프리뷰 |
+| `npm run dev` | 로컬 API 서버 (http://localhost:3000) |
 
 ## Tech Stack
 
@@ -192,11 +224,11 @@ npm run init
 | Data | Local file parsing (`~/.claude/`, `~/.codex/`) |
 | Sync | GitHub Gist via `gh` CLI |
 | Auto-update | Claude Code Stop hook |
-| Icons | Simple Icons (SVG) + custom PNG (Claude Code, Codex) |
+| Icons | Simple Icons + custom PNG (Claude Code, Codex) |
 
 ## Contributing
 
-Contributions welcome! Some ideas:
+Contributions welcome!
 
 - GitHub Action으로 주기적 Gist 동기화
 - 더 많은 AI 도구 지원 (Gemini, Cursor, Windsurf)
