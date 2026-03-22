@@ -6,7 +6,8 @@
     "dev": "node scripts/dev-server.js",
     "test": "node tests/test-cards.js",
     "preview": "node scripts/preview.js",
-    "sync": "node scripts/sync.js"
+    "sync": "node scripts/sync.js",
+    "init": "node scripts/init.js"
   },
   "keywords": ["github", "readme", "ai", "stats", "copilot", "claude", "svg"],
   "license": "MIT",
