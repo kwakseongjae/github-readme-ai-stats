@@ -136,7 +136,7 @@ async function main() {
   };
 
   // 테마별 카드 생성
-  const themes = ["default", "dark", "radical", "tokyonight", "dracula", "neon", "synthwave"];
+  const themes = ["default", "dark", "radical", "tokyonight", "dracula", "neon", "synthwave", "gruvbox", "nord", "matrix"];
   const cards = themes.map((theme) => ({
     theme,
     svg: renderStatsCard(cardData, { theme }),
