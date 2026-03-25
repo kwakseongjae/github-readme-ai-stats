@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="298" viewBox="0 -28 495 298">
-<rect x="0.5" y="0.5" width="494" height="269" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="301" viewBox="0 -28 495 301">
+<rect x="0.5" y="0.5" width="494" height="272" rx="4.5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
 
   
   <circle cx="440" cy="0" r="26" fill="#0d1117"/>
@@ -24,93 +24,93 @@
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.2s"/>
-      <image href="data:image/png;base64,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" x="25" y="68" width="14" height="14"/>
-      <text x="45" y="79" fill="#c9d1d9" font-size="11.5" font-family="'Segoe UI',Ubuntu,sans-serif">Claude Code</text>
-      <rect x="175" y="69" width="259" height="11" rx="5.5" fill="#21262d"/>
-      <rect x="175" y="69" width="0" height="11" rx="5.5" fill="#D97757">
+      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAMZlWElmTU0AKgAAAAgABgESAAMAAAABAAEAAAEaAAUAAAABAAAAVgEbAAUAAAABAAAAXgEoAAMAAAABAAIAAAExAAIAAAARAAAAZodpAAQAAAABAAAAeAAAAAAAAqY3AAAJbAACpjcAAAlsQWRvYmUgSW1hZ2VSZWFkeQAAAAaQAAAHAAAABDAyMTCRAQAHAAAABAECAwCgAAAHAAAABDAxMDCgAQADAAAAAQABAACgAgAEAAAAAQAAACCgAwAEAAAAAQAAACAAAAAAbhDwgwAAAAlwSFlzAAALEgAACxIB0t1+/AAABMRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDYuMC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8eG1wOkNyZWF0b3JUb29sPkFkb2JlIEltYWdlUmVhZHk8L3htcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjYwMDwvZXhpZjpQaXhlbFhEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOkNvbG9yU3BhY2U+NjU1MzU8L2V4aWY6Q29sb3JTcGFjZT4KICAgICAgICAgPGV4aWY6RXhpZlZlcnNpb24+MDIxMDwvZXhpZjpFeGlmVmVyc2lvbj4KICAgICAgICAgPGV4aWY6Q29tcG9uZW50c0NvbmZpZ3VyYXRpb24+CiAgICAgICAgICAgIDxyZGY6U2VxPgogICAgICAgICAgICAgICA8cmRmOmxpPjE8L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaT4yPC9yZGY6bGk+CiAgICAgICAgICAgICAgIDxyZGY6bGk+MzwvcmRmOmxpPgogICAgICAgICAgICAgICA8cmRmOmxpPjA8L3JkZjpsaT4KICAgICAgICAgICAgPC9yZGY6U2VxPgogICAgICAgICA8L2V4aWY6Q29tcG9uZW50c0NvbmZpZ3VyYXRpb24+CiAgICAgICAgIDxleGlmOkZsYXNoUGl4VmVyc2lvbj4wMTAwPC9leGlmOkZsYXNoUGl4VmVyc2lvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjQ4NzwvZXhpZjpQaXhlbFlEaW1lbnNpb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjcxOTgzLzEwMDA8L3RpZmY6WFJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOllSZXNvbHV0aW9uPjcxOTgzLzEwMDA8L3RpZmY6WVJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgqeBAK7AAAFeUlEQVRYCcVWa2wUVRQ+89hHu7Tdlq3bli6lsJUGa4IINAalSFAk1jSoGILhlwlGpEEijfoDA/pLf/jDRKsipjGVHxVJwMQEeSSEKEK0YkPE2rTb0u6Wtts37GNe13Nud7a7ZVq2ocSzmZ25d+4533fPay7A/yzCTPxAX9/qnPzCspnzCzGOjA8Hl5aU/J5qS04dtLT8VFjizjstjwV9jBmprxbgWYBcd2H4zMWLa7bW1PSaBtMIqFmyOz4UcvcePQy6qgIIdznI1Jv3XURTRa+9nyPaXG5UtiagxONk2ABBRHC6Fo4AkCkBDEVVCCMpiDJDGJuaWEDsGQhpw7sJpL1+8IM0An2hkCGgQMIJMgXuPkVEc6YVAcM6MDCop5rkBLo7OtbEdfbd23v3HLVluxYZhgGabkDX8CTYJJFfqUqZPEtI3mmTIHwnBgraYhhayel07nyx7jPEau4NBKrJDq+CXK93p73r2q7xf65BZHwUpxkY6IXXf7gEFZ48eHPDKljlzQedJjMQWRRh6E4Ujl1th3P/9kHL7i3gkO0wcv6k4CrwbMqrqIKcJZXjaOoK94DOQJ64fhVCZ76HidZLnK3TJsMHW9fCZFyBV749ByfaAuCUpXvC29FjrcEwbG/6Ga70DEL9k1WQ67TzDU22XeYYY22/gaozvnkzB5ggySDaHSDY7AkQBjkOG+RnOSCm6TARU7AqzWjOzoNiPnQ7Cv0TEfB7cqGqqCCpJ8i2KQzEojCTmATSLBIOMoT9p36Fm2O34eiOjbD78QqIqVraOqtBHMk+7S+BL156Cm4MjMLu4xcgoqhAxKwkrROaC6gVULQ/fr4aHi0ugGwMBxnOJANojYRg2yp9sHF5MVzuGeDglIRWMk2Ao+IiuqMBKsG1vkLQ0FUUgvkIQZGOLAmw2b8EvZkgn4qRMMgJYKVKosMJUpYL6UvYL3lLRsX7+yARnoLgpgiYY6KZawLwjOYEBvuD3f4NLyhL1z0rq0NBMdj0EXqCwK3jZhqc1x3ZFO/cB7aiMobJrvX3D3SRPiewZfPm5voDB66XlpVXbK9e/QkmjDPDks+YA1WQmJ2rnv7lj4ZAx42/v2ps/IuUeRWEQqHwew0N5zp7b53XNVXJpNwyRk4spCJA29ro5J0L7xw8eLazs3MwScA0Vl5ZnqxZc24h77SxUl9pmknLPpC24gEPpsvQAojp2HioYyFz6mIkyTmL9XSIEeQpk0xDXUpk/C5Ql51NZn+DwFllK0HOKwA9chuigRvcYNaySshe/BDaTXeegWDRkTBEu9s5Vrb/EZBcuaBNjkGsB+fohGUhsxJgWL8Fm+pgUdV6iAcD0PPpu7h7HTzP7ADNt7JLVZRR7G68TjG2zGaz5bludftvNh7iHvNs28U3ECoog94vj3BPWOBbfwvMhQRIwt2Od0oiQ1NZ84mTDR533nOF+e5auuj586+/2a8rcU1M7NTUMW1wQxZ/s3rAYi2fop5etfqxMA7oSsqaddU0pi48L7EOzD1MyIlES12GIUgdZvw8PwK4e5b4js+JQH7IsJWmhQAzGw+kTGCaAozO7yYYAdOYypLxc+tdHwnMD9TVBVrHP72owwWrg8+RBsNawN/Ui6n/NAIDncGY/YlqbfmeQzzjpWUr+Spn2Qrwv3EYnxnonlIY/rMtOqU+/T8SDEXtNeuZf+8RXIUH0BWV/KULz38V+z7EXiCBurhEH2w9G5vWwsROHeCz49SpH18uXOJ7GP3AjFgMs14BEWMuOrOpCoTx8GDorfr64+3t7ZOpul6v13WsqenV/MVeH55IdCMWQV1tWhc9O3Qr1FVXW9uCeskNzCRAY8qLuU6f9J2m+pyZ8aRLenPlFemRflL3Py8gIfDG7mtyAAAAAElFTkSuQmCC" x="25" y="70" width="14" height="14"/>
+      <text x="45" y="81" fill="#c9d1d9" font-size="11.5" font-family="'Segoe UI',Ubuntu,sans-serif">Claude Code</text>
+      <rect x="175" y="71" width="259" height="11" rx="5.5" fill="#21262d"/>
+      <rect x="175" y="71" width="0" height="11" rx="5.5" fill="#D97757">
         <animate attributeName="width" from="0" to="181.29999999999998" dur="0.6s" fill="freeze" begin="0.2s"/>
       </rect>
-      <circle cx="356.29999999999995" cy="76" r="2" fill="#D97757" opacity="0">
+      <circle cx="356.29999999999995" cy="78" r="2" fill="#D97757" opacity="0">
           <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite" begin="0.2s"/>
         </circle>
-      <text x="442" y="79" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.8">70%</text>
+      <text x="442" y="81" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.8">70%</text>
     </g>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.30000000000000004s"/>
-      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAHhlWElmTU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAACCgAwAEAAAAAQAAACAAAAAAnwlWxAAAAAlwSFlzAAALEwAACxMBAJqcGAAABGZJREFUWAm9l0lvHFUUhY+HbsdkMKMNJASC4gQCMm2kMAWSIMEOFAkhkLKADaxAiAUSYsOCLRILKxv+ABKrSCzYYIaYQBiiiGQBBBDpYAi2bOIxtnvmO11VcndXddtGpK/0ul6/4d7zzh3qlVQjlUqlm3a4VKqMlMuVEv3/RazLOlF2mNZdY3K1y8Qw7QTtassYBoZXLdNjIEObvNqWa/TbVqYKgk6a9lXNZLu6J227g5/HQDJWR0mTP+WSNPG3ND0l5XNSzybppn5p4Bapo6PJptbDBx0Qz7deE8zOzEhnvpP+wXilEhisPjul/pulzP1SukcySANLpdajVc91EKFl0LfEPzcnffaptHRF6upCsVcDInqWyxhPB6CqfYAMAOrufVLftpZAynaBVbWUUYyP/yV1JydQsLdGi7slmOjtlR59RNqxvbl6CGwt2XHpD/xeYWWRkzZtWC2GrWQErF9clr44Kc3CYDNpysDlWenr76VLk6s+b6ak1XihIO3bKz0OE0mSSOrUZemjUU6Az7tDn1c4/X+J9DJMZC9JuTzBSZw0SgxAEd+NnpJmFgOfcwDZuP1fKG4chL2xuCIt05IAxGLgwp/SRWgXJ7dP845w0uroU9IwUb0MosjX63kW0OH4qWZP4/H5HwOQnYAujHqjG4fWkmlAHr5P2kZarcBSNL/W0/t9iBVckCQxAItUOJ8sUuz+PPR9QkCawgOAsMJofq1ntP/jb0hN9jVKDEAPRSRvAKysNvrm6VxW+pE2NCjdRpHZCAt2wXnqyO8EY6PEAOxCuYuI06fa4NDBZwoXyOtOqmCagMx7Ppxbz9P7fyW+GgVV9TK4Q9p5g/QbiFNOQaQAoN3bpf3k889Z6YfzQTZEIJJqaQrNBhuJQc7OR/9WnzEAzvtnDknvfUAwcmLX+y54evoALxrccfxz2FgK6oPHD3G1uHbrqkL3DGzsDOnHuqh25BjrCQ9UuzoGwJNbqOElKMsTfNjU9UR+/3XUBwLplwu4IBUUli3XSE88EAfgF9LZn6Sp6bCQoaMIA7tht1ESS/EEG98eCWLAJzAIn9IncqGKmI3Ge6kTtWJj05Ty6I2Z5zB7dklvvRx/TScysHUzp4ReV7DOMEwnwwCssw4SjzfGgAFG+1yCb4S9F47EjRt0IoDNuGDvHVD+pbSp5nQcft3i+mAgQ3dJLz5LYN+avDURgJceeVI6RfFZCN8JyduTR82IM+DNV6UHCdJWEhIcX7KTtHv9JRgA4jz+XOHN6KzIEQduDtCkVmB8YU66d8/axm11zSvZxXHpw+PcB88REyEbjvL5BeIkHQeeo5QP9EvvviPdnhD1DTuqV7JjDL7SMBH767vBHIXEBcbGR96XTpPrrppRpjjwhu6R3nhNGrwzpiJp4NiGruW1Gpxq356GmbNUOFzU18fNeEh6aH9QJ2rXtugf9FeRP0z8kdBuqX6YVMFhOcP1vG2fZqGtTB0zgGjXx+kJ26ozHv1hou2f5/8CpcJ6CBIG8Z4AAAAASUVORK5CYII=" x="25" y="98" width="14" height="14"/>
-      <text x="45" y="109" fill="#c9d1d9" font-size="11.5" font-family="'Segoe UI',Ubuntu,sans-serif">Codex CLI</text>
-      <rect x="175" y="99" width="259" height="11" rx="5.5" fill="#21262d"/>
-      <rect x="175" y="99" width="0" height="11" rx="5.5" fill="#412991">
+      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAHhlWElmTU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAACCgAwAEAAAAAQAAACAAAAAAnwlWxAAAAAlwSFlzAAALEwAACxMBAJqcGAAABGZJREFUWAm9l0lvHFUUhY+HbsdkMKMNJASC4gQCMm2kMAWSIMEOFAkhkLKADaxAiAUSYsOCLRILKxv+ABKrSCzYYIaYQBiiiGQBBBDpYAi2bOIxtnvmO11VcndXddtGpK/0ul6/4d7zzh3qlVQjlUqlm3a4VKqMlMuVEv3/RazLOlF2mNZdY3K1y8Qw7QTtassYBoZXLdNjIEObvNqWa/TbVqYKgk6a9lXNZLu6J227g5/HQDJWR0mTP+WSNPG3ND0l5XNSzybppn5p4Bapo6PJptbDBx0Qz7deE8zOzEhnvpP+wXilEhisPjul/pulzP1SukcySANLpdajVc91EKFl0LfEPzcnffaptHRF6upCsVcDInqWyxhPB6CqfYAMAOrufVLftpZAynaBVbWUUYyP/yV1JydQsLdGi7slmOjtlR59RNqxvbl6CGwt2XHpD/xeYWWRkzZtWC2GrWQErF9clr44Kc3CYDNpysDlWenr76VLk6s+b6ak1XihIO3bKz0OE0mSSOrUZemjUU6Az7tDn1c4/X+J9DJMZC9JuTzBSZw0SgxAEd+NnpJmFgOfcwDZuP1fKG4chL2xuCIt05IAxGLgwp/SRWgXJ7dP845w0uroU9IwUb0MosjX63kW0OH4qWZP4/H5HwOQnYAujHqjG4fWkmlAHr5P2kZarcBSNL/W0/t9iBVckCQxAItUOJ8sUuz+PPR9QkCawgOAsMJofq1ntP/jb0hN9jVKDEAPRSRvAKysNvrm6VxW+pE2NCjdRpHZCAt2wXnqyO8EY6PEAOxCuYuI06fa4NDBZwoXyOtOqmCagMx7Ppxbz9P7fyW+GgVV9TK4Q9p5g/QbiFNOQaQAoN3bpf3k889Z6YfzQTZEIJJqaQrNBhuJQc7OR/9WnzEAzvtnDknvfUAwcmLX+y54evoALxrccfxz2FgK6oPHD3G1uHbrqkL3DGzsDOnHuqh25BjrCQ9UuzoGwJNbqOElKMsTfNjU9UR+/3XUBwLplwu4IBUUli3XSE88EAfgF9LZn6Sp6bCQoaMIA7tht1ESS/EEG98eCWLAJzAIn9IncqGKmI3Ge6kTtWJj05Ty6I2Z5zB7dklvvRx/TScysHUzp4ReV7DOMEwnwwCssw4SjzfGgAFG+1yCb4S9F47EjRt0IoDNuGDvHVD+pbSp5nQcft3i+mAgQ3dJLz5LYN+avDURgJceeVI6RfFZCN8JyduTR82IM+DNV6UHCdJWEhIcX7KTtHv9JRgA4jz+XOHN6KzIEQduDtCkVmB8YU66d8/axm11zSvZxXHpw+PcB88REyEbjvL5BeIkHQeeo5QP9EvvviPdnhD1DTuqV7JjDL7SMBH767vBHIXEBcbGR96XTpPrrppRpjjwhu6R3nhNGrwzpiJp4NiGruW1Gpxq356GmbNUOFzU18fNeEh6aH9QJ2rXtugf9FeRP0z8kdBuqX6YVMFhOcP1vG2fZqGtTB0zgGjXx+kJ26ozHv1hou2f5/8CpcJ6CBIG8Z4AAAAASUVORK5CYII=" x="25" y="104" width="14" height="14"/>
+      <text x="45" y="115" fill="#c9d1d9" font-size="11.5" font-family="'Segoe UI',Ubuntu,sans-serif">Codex CLI</text>
+      <rect x="175" y="105" width="259" height="11" rx="5.5" fill="#21262d"/>
+      <rect x="175" y="105" width="0" height="11" rx="5.5" fill="#412991">
         <animate attributeName="width" from="0" to="77.7" dur="0.6s" fill="freeze" begin="0.30000000000000004s"/>
       </rect>
-      <circle cx="252.7" cy="106" r="2" fill="#412991" opacity="0">
+      <circle cx="252.7" cy="112" r="2" fill="#412991" opacity="0">
           <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite" begin="0.30000000000000004s"/>
         </circle>
-      <text x="442" y="109" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.8">30%</text>
+      <text x="442" y="115" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.8">30%</text>
     </g>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.4s"/>
-      <g transform="translate(25, 128) scale(0.5833333333333334)" fill="#D97757">
+      <g transform="translate(25, 138) scale(0.5833333333333334)" fill="#D97757">
     <path d="M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z"/>
   </g>
-      <text x="45" y="139" fill="#c9d1d9" font-size="11.5" font-family="'Segoe UI',Ubuntu,sans-serif">Opus 4.6 (5.1M)</text>
-      <rect x="175" y="129" width="259" height="11" rx="5.5" fill="#21262d"/>
-      <rect x="175" y="129" width="0" height="11" rx="5.5" fill="#D97757">
+      <text x="45" y="149" fill="#c9d1d9" font-size="11.5" font-family="'Segoe UI',Ubuntu,sans-serif">Opus 4.6 (5.1M)</text>
+      <rect x="175" y="139" width="259" height="11" rx="5.5" fill="#21262d"/>
+      <rect x="175" y="139" width="0" height="11" rx="5.5" fill="#D97757">
         <animate attributeName="width" from="0" to="129.5" dur="0.6s" fill="freeze" begin="0.4s"/>
       </rect>
-      <circle cx="304.5" cy="136" r="2" fill="#D97757" opacity="0">
+      <circle cx="304.5" cy="146" r="2" fill="#D97757" opacity="0">
           <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite" begin="0.4s"/>
         </circle>
-      <text x="442" y="139" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.8">50%</text>
+      <text x="442" y="149" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.8">50%</text>
     </g>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.5s"/>
-      <g transform="translate(25, 158) scale(0.5833333333333334)" fill="#74AA9C">
+      <g transform="translate(25, 172) scale(0.5833333333333334)" fill="#74AA9C">
     <path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997z"/>
   </g>
-      <text x="45" y="169" fill="#c9d1d9" font-size="11.5" font-family="'Segoe UI',Ubuntu,sans-serif">GPT-4.1 (1.5M)</text>
-      <rect x="175" y="159" width="259" height="11" rx="5.5" fill="#21262d"/>
-      <rect x="175" y="159" width="0" height="11" rx="5.5" fill="#74AA9C">
+      <text x="45" y="183" fill="#c9d1d9" font-size="11.5" font-family="'Segoe UI',Ubuntu,sans-serif">GPT-4.1 (1.5M)</text>
+      <rect x="175" y="173" width="259" height="11" rx="5.5" fill="#21262d"/>
+      <rect x="175" y="173" width="0" height="11" rx="5.5" fill="#74AA9C">
         <animate attributeName="width" from="0" to="64.75" dur="0.6s" fill="freeze" begin="0.5s"/>
       </rect>
-      <circle cx="239.75" cy="166" r="2" fill="#74AA9C" opacity="0">
+      <circle cx="239.75" cy="180" r="2" fill="#74AA9C" opacity="0">
           <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite" begin="0.5s"/>
         </circle>
-      <text x="442" y="169" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.8">25%</text>
+      <text x="442" y="183" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.8">25%</text>
     </g>
-<line x1="25" y1="189" x2="470" y2="189" stroke="#30363d" stroke-width="0.5" opacity="0.3"/>
+<line x1="25" y1="207" x2="470" y2="207" stroke="#30363d" stroke-width="0.5" opacity="0.3"/>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.5s"/>
-      <svg viewBox="0 0 24 24" width="13" height="13" x="51.625" y="200" fill="#58a6ff" opacity="0.6"><path d="M13 3L4 14h5l-1 7 9-11h-5l1-7z"/></svg>
-      <text x="70.625" y="213" fill="#c9d1d9" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">5.4M</text>
-      <text x="80.625" y="228" text-anchor="middle" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">tokens/mo</text>
+      <svg viewBox="0 0 24 24" width="13" height="13" x="51.625" y="218" fill="#58a6ff" opacity="0.6"><path d="M13 3L4 14h5l-1 7 9-11h-5l1-7z"/></svg>
+      <text x="70.625" y="231" fill="#c9d1d9" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">5.4M</text>
+      <text x="80.625" y="246" text-anchor="middle" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">tokens/mo</text>
     </g>
-<line x1="136.25" y1="199" x2="136.25" y2="229" stroke="#30363d" stroke-width="0.5" opacity="0.25"/>
+<line x1="136.25" y1="217" x2="136.25" y2="247" stroke="#30363d" stroke-width="0.5" opacity="0.25"/>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.6s"/>
-      <svg viewBox="0 0 24 24" width="13" height="13" x="167.625" y="200" fill="#58a6ff" opacity="0.6"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 8l4 3-4 3V8z"/></svg>
-      <text x="186.625" y="213" fill="#c9d1d9" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">592</text>
-      <text x="191.875" y="228" text-anchor="middle" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">sessions</text>
+      <svg viewBox="0 0 24 24" width="13" height="13" x="167.625" y="218" fill="#58a6ff" opacity="0.6"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 8l4 3-4 3V8z"/></svg>
+      <text x="186.625" y="231" fill="#c9d1d9" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">592</text>
+      <text x="191.875" y="246" text-anchor="middle" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">sessions</text>
     </g>
-<line x1="247.5" y1="199" x2="247.5" y2="229" stroke="#30363d" stroke-width="0.5" opacity="0.25"/>
+<line x1="247.5" y1="217" x2="247.5" y2="247" stroke="#30363d" stroke-width="0.5" opacity="0.25"/>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.7s"/>
-      <svg viewBox="0 0 24 24" width="13" height="13" x="269.375" y="200" fill="#58a6ff" opacity="0.6"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-      <text x="288.375" y="213" fill="#c9d1d9" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">69/mo</text>
-      <text x="303.125" y="228" text-anchor="middle" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">AI commits</text>
+      <svg viewBox="0 0 24 24" width="13" height="13" x="269.375" y="218" fill="#58a6ff" opacity="0.6"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+      <text x="288.375" y="231" fill="#c9d1d9" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">69/mo</text>
+      <text x="303.125" y="246" text-anchor="middle" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">AI commits</text>
     </g>
-<line x1="358.75" y1="199" x2="358.75" y2="229" stroke="#30363d" stroke-width="0.5" opacity="0.25"/>
+<line x1="358.75" y1="217" x2="358.75" y2="247" stroke="#30363d" stroke-width="0.5" opacity="0.25"/>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.8s"/>
-      <svg viewBox="0 0 24 24" width="13" height="13" x="390.125" y="200" fill="#ff6b35" opacity="0.6"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-      <text x="409.125" y="213" fill="#c9d1d9" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">43d</text>
-      <text x="414.375" y="228" text-anchor="middle" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">streak</text>
+      <svg viewBox="0 0 24 24" width="13" height="13" x="390.125" y="218" fill="#ff6b35" opacity="0.6"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+      <text x="409.125" y="231" fill="#c9d1d9" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">43d</text>
+      <text x="414.375" y="246" text-anchor="middle" fill="#c9d1d9" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">streak</text>
     </g>
 </svg>

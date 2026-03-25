@@ -39,12 +39,13 @@ export function renderStatsCard(data, options = {}) {
 
   // 레이아웃
   const headerH = 30;
-  const toolRowH = 30;
-  const toolsTopPad = 12;
+  const toolRowH = 34;
+  const toolsTopPad = 14;
   const toolsH = tools.length * toolRowH;
   const divPad = 10;
   const statsH = 48;
-  const H = P + headerH + toolsTopPad + toolsH + divPad + statsH + P;
+  const bottomPad = 10;
+  const H = P + headerH + toolsTopPad + toolsH + divPad + statsH + bottomPad;
 
   const parts = [];
 
