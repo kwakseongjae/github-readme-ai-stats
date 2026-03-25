@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="262" viewBox="0 -28 495 262">
-<rect x="0.5" y="0.5" width="494" height="233" rx="4.5" fill="#0a0a0a" stroke="#00ffff" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="268" viewBox="0 -28 495 268">
+<rect x="0.5" y="0.5" width="494" height="239" rx="4.5" fill="#0a0a0a" stroke="#00ffff" stroke-width="1"/>
 
   
   <circle cx="440" cy="0" r="26" fill="#0a0a0a"/>
@@ -70,32 +70,32 @@
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.5s"/>
-      <svg viewBox="0 0 24 24" width="13" height="13" x="52.625" y="170" fill="#ff00ff" opacity="0.6"><path d="M13 3L4 14h5l-1 7 9-11h-5l1-7z"/></svg>
-      <text x="71.625" y="182" fill="#e0e0e0" font-size="14" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">3.2M</text>
-      <text x="80.625" y="195" text-anchor="middle" fill="#e0e0e0" font-size="9" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.4">tokens/mo</text>
+      <svg viewBox="0 0 24 24" width="13" height="13" x="51.625" y="170" fill="#ff00ff" opacity="0.6"><path d="M13 3L4 14h5l-1 7 9-11h-5l1-7z"/></svg>
+      <text x="70.625" y="183" fill="#e0e0e0" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">3.2M</text>
+      <text x="80.625" y="198" text-anchor="middle" fill="#e0e0e0" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">tokens/mo</text>
     </g>
 <line x1="136.25" y1="169" x2="136.25" y2="199" stroke="#00ffff" stroke-width="0.5" opacity="0.25"/>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.6s"/>
-      <svg viewBox="0 0 24 24" width="13" height="13" x="168.375" y="170" fill="#ff00ff" opacity="0.6"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 8l4 3-4 3V8z"/></svg>
-      <text x="187.375" y="182" fill="#e0e0e0" font-size="14" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">285</text>
-      <text x="191.875" y="195" text-anchor="middle" fill="#e0e0e0" font-size="9" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.4">sessions</text>
+      <svg viewBox="0 0 24 24" width="13" height="13" x="167.625" y="170" fill="#ff00ff" opacity="0.6"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 8l4 3-4 3V8z"/></svg>
+      <text x="186.625" y="183" fill="#e0e0e0" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">285</text>
+      <text x="191.875" y="198" text-anchor="middle" fill="#e0e0e0" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">sessions</text>
     </g>
 <line x1="247.5" y1="169" x2="247.5" y2="199" stroke="#00ffff" stroke-width="0.5" opacity="0.25"/>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.7s"/>
-      <svg viewBox="0 0 24 24" width="13" height="13" x="284.125" y="170" fill="#ff00ff" opacity="0.6"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
-      <text x="303.125" y="182" fill="#e0e0e0" font-size="14" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">63</text>
-      <text x="303.125" y="195" text-anchor="middle" fill="#e0e0e0" font-size="9" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.4">commits/mo</text>
+      <svg viewBox="0 0 24 24" width="13" height="13" x="269.375" y="170" fill="#ff00ff" opacity="0.6"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+      <text x="288.375" y="183" fill="#e0e0e0" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">63/mo</text>
+      <text x="303.125" y="198" text-anchor="middle" fill="#e0e0e0" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">AI commits</text>
     </g>
 <line x1="358.75" y1="169" x2="358.75" y2="199" stroke="#00ffff" stroke-width="0.5" opacity="0.25"/>
 
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.8s"/>
-      <svg viewBox="0 0 24 24" width="13" height="13" x="390.875" y="170" fill="#ff6b35" opacity="0.6"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
-      <text x="409.875" y="182" fill="#e0e0e0" font-size="14" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">15d</text>
-      <text x="414.375" y="195" text-anchor="middle" fill="#e0e0e0" font-size="9" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.4">streak</text>
+      <svg viewBox="0 0 24 24" width="13" height="13" x="390.125" y="170" fill="#ff6b35" opacity="0.6"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+      <text x="409.125" y="183" fill="#e0e0e0" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">15d</text>
+      <text x="414.375" y="198" text-anchor="middle" fill="#e0e0e0" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">streak</text>
     </g>
 </svg>

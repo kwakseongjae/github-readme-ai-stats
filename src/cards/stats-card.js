@@ -43,7 +43,7 @@ export function renderStatsCard(data, options = {}) {
   const toolsTopPad = 12;
   const toolsH = tools.length * toolRowH;
   const divPad = 10;
-  const statsH = 42;
+  const statsH = 48;
   const H = P + headerH + toolsTopPad + toolsH + divPad + statsH + P;
 
   const parts = [];
@@ -146,7 +146,7 @@ export function renderStatsCard(data, options = {}) {
     cols.push({ value: String(data.totalSessions), label: "sessions", iconPath: "M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 8l4 3-4 3V8z" });
   }
   if (data.aiCommitsPerMonth > 0) {
-    cols.push({ value: `${data.aiCommitsPerMonth}`, label: "commits/mo", iconPath: "M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" });
+    cols.push({ value: `${data.aiCommitsPerMonth}/mo`, label: "AI commits", iconPath: "M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" });
   } else if (data.aiCommitRatio > 0) {
     cols.push({ value: `${Math.round(data.aiCommitRatio * 100)}%`, label: "AI commits", iconPath: "M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" });
   }
@@ -164,7 +164,7 @@ export function renderStatsCard(data, options = {}) {
       parts.push(`<line x1="${P + i * colW}" y1="${sY}" x2="${P + i * colW}" y2="${sY + 30}" stroke="${c.border}" stroke-width="0.5" opacity="0.25"/>`);
     }
 
-    const valWidth = col.value.length * 9;
+    const valWidth = col.value.length * 9.5;
     const totalW = 14 + 6 + valWidth;
     const startX = cx - totalW / 2;
 
@@ -172,8 +172,8 @@ export function renderStatsCard(data, options = {}) {
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="${delay}"/>
       <svg viewBox="0 0 24 24" width="13" height="13" x="${startX}" y="${sY + 1}" fill="${iconColor}" opacity="0.6"><path d="${col.iconPath}"/></svg>
-      <text x="${startX + 19}" y="${sY + 13}" fill="${c.text}" font-size="14" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">${col.value}</text>
-      <text x="${cx}" y="${sY + 26}" text-anchor="middle" fill="${c.text}" font-size="9" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.4">${col.label}</text>
+      <text x="${startX + 19}" y="${sY + 14}" fill="${c.text}" font-size="15" font-weight="bold" font-family="'Segoe UI',Ubuntu,sans-serif">${col.value}</text>
+      <text x="${cx}" y="${sY + 29}" text-anchor="middle" fill="${c.text}" font-size="10.5" font-family="'Segoe UI',Ubuntu,sans-serif" opacity="0.45">${col.label}</text>
     </g>`);
   });
 
